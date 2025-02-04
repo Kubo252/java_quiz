@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar for buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@android:color/darker_gray">
+
+        <ImageButton
+            android:id="@+id/color_black"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#000000"
+            android:contentDescription="Black" />
+
+        <ImageButton
+            android:id="@+id/color_red"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#FF0000"
+            android:contentDescription="Red" />
+
+        <ImageButton
+            android:id="@+id/color_blue"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#0000FF"
+            android:contentDescription="Blue" />
+
+        <ImageButton
+            android:id="@+id/color_eraser"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="Eraser" />
+
+        <ImageButton
+            android:id="@+id/clear_canvas"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:drawable/ic_menu_delete"
+            android:contentDescription="Clear Canvas" />
+    </LinearLayout>
+
+    <!-- Drawing View -->
+    <sk.tuke.zadanie_szabados.DrawView
+        android:id="@+id/draw_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Homepage Button -->
+    <Button
+        android:id="@+id/button_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="Homepage" />
+</LinearLayout>

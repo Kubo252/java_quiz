@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "274315229693",
+    "firebase_url": "https://zadanie-vmir-szabados-default-rtdb.firebaseio.com",
+    "project_id": "zadanie-vmir-szabados",
+    "storage_bucket": "zadanie-vmir-szabados.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274315229693:android:e18c302f63438fd3db8194",
+        "android_client_info": {
+          "package_name": "sk.tuke.zadanie_szabados"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfi-SaQ0uGZG04_AbXZVebuTj1TsdpKbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
